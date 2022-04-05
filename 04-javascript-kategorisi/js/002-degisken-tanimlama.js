@@ -40,10 +40,10 @@ fullName = "Sifirlandi"
 fullName += " ve Yeni Bilgi Eklendi"
 console.log(fullName)
 
-// const ile degiskeni bos tanimlamaya calismak :( :
+// const ile degiskeni bos tanimlamaya calismak :( : olmaz
 // const serverPassword; // sadece degisken tanimlandi ama ici bos ??
 
-// const ile degisken tanimlamak:
+// const ile degisken tanimlamak: 1 kere tanımlanır ve bir daha değiştirilmez
 const SERVER_PASSWORD = "oisjefo9jwes221"
 console.log(SERVER_PASSWORD)
 
