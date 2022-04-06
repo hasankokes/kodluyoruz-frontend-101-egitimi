@@ -8,6 +8,8 @@ let email = username + "@" + DOMAIN
 
 // console.log("Merhaba", username, "sitemize hosgeldin", "mail adresin:", email)
 
+//backtick ` (option + virgul)
+
 let info = `
 Merhaba ${username} sitemize hosgeldin.. 
 mail adresin: ${email}

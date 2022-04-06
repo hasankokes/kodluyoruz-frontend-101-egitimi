@@ -25,10 +25,12 @@ let number1 = "11"
 number1 = parseInt(number1)
 console.log("number1: ", number1, typeof(number1) )
 
-let number2 = "11px"
+//parse içinde sayı varsa alır fakat number ile çevirilirse içinde sayı dışında birşey varsa NaN döndürür!
+let number2 = "11px"  ///eger px başta olsaydı NaN diye dönerdi çeviremezdi!!
 number2 = parseInt(number2)
 console.log("number2: ", number2, typeof(number2) )
 
+//number da virgüllü sayıda olabilir, kabul eder. Ama başka karakter varsa olmaz.
 let number3 = "11.1"
 number3 = Number(number3)
 console.log("number3: ", number3, typeof(number3) )

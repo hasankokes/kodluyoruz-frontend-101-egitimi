@@ -12,10 +12,11 @@ console.log(
 )
 
 let stringNumber = "11"
-console.log(stringNumber)
+console.log(stringNumber)  //string 11 yazar
 let newNumber = Number(stringNumber)
 console.log(newNumber)
-console.log("Number Constructor icine bilgi gonderildi:", Number("111"))
+console.log("Number Constructor icine bilgi gonderildi:", Number("111"))  //artık number 111
+
 
 // arttirma ve azaltma islemleri:
 let counter = 320
