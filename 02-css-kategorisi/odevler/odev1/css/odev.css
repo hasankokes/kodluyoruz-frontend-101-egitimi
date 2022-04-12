@@ -1,0 +1,37 @@
+body{
+    background-color: darkgray;
+    font-family: 'Grape Nuts', cursive;
+    margin:0 auto;text-align:center; width:960px;
+    line-height: 1.6;
+
+}
+
+h1 {
+    font-size: 44px;
+    
+}
+
+h2 {
+    font-size: 34px;
+    font-weight: bold;
+}
+
+h3 {
+    font-size: 28px;
+    font-weight: bold;
+    color: indigo;
+}
+
+p {
+    font-size: 20px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+
+}
+
+ul {
+    font-size: 20px;
+}
+
+#tek {
+    color: indigo;
+}
