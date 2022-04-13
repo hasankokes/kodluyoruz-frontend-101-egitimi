@@ -6,8 +6,7 @@ body {
    
 
 .container {
-    margin-left: %90;
-    margin-right: %90;  
+    margin:3px auto; 
 }
 
 .container2 {
