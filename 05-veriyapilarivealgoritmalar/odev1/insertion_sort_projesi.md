@@ -13,9 +13,13 @@
     ```
 
 3. Time Complexity: 
-    Average case: Aradığımız sayının ortada olması, ```16,18```
-    Worst case: Aradığımız sayının sonda olması, ```27```
-    Best case: Aradığımız sayının dizinin en başında olması.```2```
+    <p> Average case: Aradığımız sayının ortada olması, 
+    `16,18`
+    </p>
+    <p>Worst case: Aradığımız sayının sonda olması,</p> 
+    `27`
+    <p>Best case: Aradığımız sayının dizinin en başında olması.</p>
+    `2`
 
 4. Dizi sıralandıktan sonra 18 sayısı hangi case kapsamına girer? Yazınız.
     ```
