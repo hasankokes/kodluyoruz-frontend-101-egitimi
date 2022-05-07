@@ -25,7 +25,7 @@ let number1 = "11"
 number1 = parseInt(number1)
 console.log("number1: ", number1, typeof(number1) )
 
-//parse içinde sayı varsa alır fakat number ile çevirilirse içinde sayı dışında birşey varsa NaN döndürür!
+//parse içinde sayı varsa alır fakat *number* ile çevirilirse içinde sayı dışında birşey varsa NaN döndürür!
 let number2 = "11px"  ///eger px başta olsaydı NaN diye dönerdi çeviremezdi!!
 number2 = parseInt(number2)
 console.log("number2: ", number2, typeof(number2) )

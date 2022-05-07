@@ -19,10 +19,10 @@ console.log(firstName)
 firstName = firstName.toLowerCase()
 console.log(firstName)
 // String Icinde Istedigimiz Bilgiyi Aramak ve Yerini Bulmak -> search:
-console.log(email.search("@"))
-console.log( email[15] )
+console.log(email.search("@")) // cevap 15. indis
+console.log( email[15] ) //cevap "@""
 
-email.search('olmayan') // -1
+email.search('olmayan') // -1 (olmayan bir şey aratılırsa)
 
 // belli bir yere kadar al -> slice :  (domain bilgisi)
 let DOMAIN = email.slice( email.search("@") + 1)
